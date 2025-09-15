@@ -35,13 +35,16 @@ The main goal of this project is to:
 4. Open the books.json file to view the results.
 
 ## Project Structure
+Book-Price-Scraper/
+  main.ipynb        # Main scraping script
+  books.json        # Output file with scraped and converted prices
+  README.md         # Project documentation
+  requirements.txt  # All required dependencies for the project
+## Technical Details
 1. Scraping Logic: Uses BeautifulSoup’s CSS selectors to target book titles and prices.
 2. Price Cleaning: Removes the "£" symbol and converts string values into floats.
 3. Currency Conversion: Uses an exchange rate API with a base currency GBP and target KES.
 4. Data Storage: Exports results in JSON for portability and reusability.
-
-## Technical Details
-
 
 ## Results
 - Successfully scrapes multiple pages of book listings.

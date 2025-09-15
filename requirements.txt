@@ -1,1 +1,6 @@
 python 3.13.7
+beautifulsoup4 4.13.5
+requests
+lxml
+json
+re  
